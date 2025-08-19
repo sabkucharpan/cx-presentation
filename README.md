@@ -32,7 +32,7 @@ A modern, interactive presentation showcasing the Chargnex Prime Level 2 AC Smar
 
 ## Live Demo
 
-Visit the live presentation: [Chargnex Prime Presentation](https://your-username.github.io/chargnex-presentation/)
+Visit the live presentation: [Chargnex Prime Presentation](https://sabkucharpan.github.io/chargnex-presentation/)
 
 ## Setup
 
@@ -43,3 +43,4 @@ Visit the live presentation: [Chargnex Prime Presentation](https://your-username
 ## License
 
 This project is for demonstration purposes.
+
