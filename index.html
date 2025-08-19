@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chargnex Prime - EV Charger Presentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Navigation Controls -->
+        <button class="nav-btn nav-btn--prev" id="prevBtn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+        </button>
+        <button class="nav-btn nav-btn--next" id="nextBtn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </button>
+
+        <!-- Slide Container -->
+        <div class="slides-wrapper">
+            <!-- Slide 1: Title -->
+            <div class="slide slide--active" data-slide="1">
+                <div class="slide__content slide__content--center">
+                    <div class="hero">
+                        <div class="hero__icon">
+                            <div class="charger-icon">
+                                <div class="charger-body"></div>
+                                <div class="charger-screen"></div>
+                                <div class="lightning-bolt">⚡</div>
+                            </div>
+                        </div>
+                        <h1 class="hero__title">CHARGNEX PRIME</h1>
+                        <h2 class="hero__subtitle">Level 2 AC Smart EV Charger</h2>
+                        <p class="hero__tagline">The Future of Electric Vehicle Charging</p>
+                    </div>
+                </div>
+                <div class="geometric-bg"></div>
+            </div>
+
+            <!-- Slide 2: Product Overview -->
+            <div class="slide" data-slide="2">
+                <div class="slide__content">
+                    <h2 class="slide__title">Next Generation Charging Infrastructure</h2>
+                    <div class="value-props">
+                        <div class="value-prop" data-delay="0">
+                            <div class="value-prop__icon">⚡</div>
+                            <h3 class="value-prop__title">80% Faster Charging</h3>
+                            <p class="value-prop__desc">19.2 kW power output delivers superior charging speed</p>
+                        </div>
+                        <div class="value-prop" data-delay="200">
+                            <div class="value-prop__icon">💳</div>
+                            <h3 class="value-prop__title">Universal Payments</h3>
+                            <p class="value-prop__desc">EMV, QR codes, RFID - no apps required</p>
+                        </div>
+                        <div class="value-prop" data-delay="400">
+                            <div class="value-prop__icon">🌡️</div>
+                            <h3 class="value-prop__title">All-Weather Reliable</h3>
+                            <p class="value-prop__desc">IP65 rated, operates -30°C to +70°C</p>
+                        </div>
+                        <div class="value-prop" data-delay="600">
+                            <div class="value-prop__icon">🔗</div>
+                            <h3 class="value-prop__title">Future-Proof</h3>
+                            <p class="value-prop__desc">OCPP 1.6J compliant with upgrade capabilities</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Technical Specifications -->
+            <div class="slide" data-slide="3">
+                <div class="slide__content">
+                    <h2 class="slide__title">Engineered for Performance</h2>
+                    <div class="specs-grid">
+                        <div class="specs-column">
+                            <h3 class="specs-column__title">Electrical Performance</h3>
+                            <div class="specs-table">
+                                <div class="spec-row">
+                                    <span class="spec-label">Power Output</span>
+                                    <span class="spec-value">Up to 19.2 kW</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Voltage</span>
+                                    <span class="spec-value">208/240V L1, L2, Split phase</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Current</span>
+                                    <span class="spec-value">Up to 80 A</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Connector Types</span>
+                                    <span class="spec-value">SAE J1772/Type 1/Type 2</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="specs-column">
+                            <h3 class="specs-column__title">Environmental & Durability</h3>
+                            <div class="specs-table">
+                                <div class="spec-row">
+                                    <span class="spec-label">Enclosure Rating</span>
+                                    <span class="spec-value">IP65</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Operating Temperature</span>
+                                    <span class="spec-value">-30°C to +70°C</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Impact Resistance</span>
+                                    <span class="spec-value">IK08</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-label">Materials</span>
+                                    <span class="spec-value">UV-resistant</span>
+                                </div>
+                            </div>
+                            <div class="power-gauge">
+                                <div class="gauge-container">
+                                    <div class="gauge-fill" data-percentage="85"></div>
+                                    <div class="gauge-label">19.2 kW Maximum Power</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Smart Features -->
+            <div class="slide" data-slide="4">
+                <div class="slide__content">
+                    <h2 class="slide__title">Intelligence Built In</h2>
+                    <div class="features-grid">
+                        <div class="feature-card" data-delay="0">
+                            <div class="feature-card__visual">
+                                <div class="touchscreen-mockup">
+                                    <div class="screen"></div>
+                                    <div class="screen-content">10"</div>
+                                </div>
+                            </div>
+                            <h3 class="feature-card__title">10" Capacitive Touchscreen</h3>
+                            <p class="feature-card__desc">Intuitive interface with weather-resistant display</p>
+                        </div>
+                        <div class="feature-card" data-delay="200">
+                            <div class="feature-card__visual">
+                                <div class="payment-icons">
+                                    <span class="payment-icon">📱</span>
+                                    <span class="payment-icon">💳</span>
+                                    <span class="payment-icon">🏷️</span>
+                                </div>
+                            </div>
+                            <h3 class="feature-card__title">Universal Payment Systems</h3>
+                            <p class="feature-card__desc">EMV tap-to-pay, QR codes, RFID cards supported</p>
+                        </div>
+                        <div class="feature-card" data-delay="400">
+                            <div class="feature-card__visual">
+                                <div class="connectivity-diagram">
+                                    <div class="center-node">OCPP</div>
+                                    <div class="connection-lines"></div>
+                                </div>
+                            </div>
+                            <h3 class="feature-card__title">OCPP 1.6J Compliance</h3>
+                            <p class="feature-card__desc">Open standard ensures backend flexibility</p>
+                        </div>
+                        <div class="feature-card" data-delay="600">
+                            <div class="feature-card__visual">
+                                <div class="connectivity-icons">
+                                    <span class="conn-icon">📶</span>
+                                    <span class="conn-icon">🌐</span>
+                                    <span class="conn-icon">📡</span>
+                                </div>
+                            </div>
+                            <h3 class="feature-card__title">Multi-connectivity</h3>
+                            <p class="feature-card__desc">WiFi, Ethernet, Bluetooth, 4G enabled</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: ROI Benefits -->
+            <div class="slide" data-slide="5">
+                <div class="slide__content">
+                    <h2 class="slide__title">Proven Return on Investment</h2>
+                    <div class="roi-content">
+                        <div class="roi-comparison">
+                            <h3>Payback Period Comparison</h3>
+                            <div class="comparison-bars">
+                                <div class="comparison-item">
+                                    <span class="comparison-label">Standard 7.4 kW</span>
+                                    <div class="comparison-bar">
+                                        <div class="comparison-fill" data-width="70">4.2 years</div>
+                                    </div>
+                                </div>
+                                <div class="comparison-item">
+                                    <span class="comparison-label">Chargnex Prime 19.2 kW</span>
+                                    <div class="comparison-bar comparison-bar--primary">
+                                        <div class="comparison-fill" data-width="45">2.8 years</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="revenue-streams">
+                            <h3>Revenue Streams</h3>
+                            <div class="revenue-list">
+                                <div class="revenue-item">
+                                    <div class="revenue-icon">💰</div>
+                                    <div class="revenue-content">
+                                        <h4>Direct Charging Revenue</h4>
+                                        <p>₹15-25 per kWh premium pricing</p>
+                                    </div>
+                                </div>
+                                <div class="revenue-item">
+                                    <div class="revenue-icon">🏠</div>
+                                    <div class="revenue-content">
+                                        <h4>Property Value Increase</h4>
+                                        <p>5-8% premium for EV-ready properties</p>
+                                    </div>
+                                </div>
+                                <div class="revenue-item">
+                                    <div class="revenue-icon">👥</div>
+                                    <div class="revenue-content">
+                                        <h4>Employee Retention</h4>
+                                        <p>Enhanced workplace benefits</p>
+                                    </div>
+                                </div>
+                                <div class="revenue-item">
+                                    <div class="revenue-icon">🌱</div>
+                                    <div class="revenue-content">
+                                        <h4>ESG Scoring</h4>
+                                        <p>Sustainability compliance benefits</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: Market Applications -->
+            <div class="slide" data-slide="6">
+                <div class="slide__content">
+                    <h2 class="slide__title">Powering Every Sector</h2>
+                    <div class="markets-grid">
+                        <div class="market-card" data-delay="0">
+                            <div class="market-icon">🏢</div>
+                            <h3 class="market-title">Commercial Real Estate</h3>
+                            <p class="market-desc">Employee benefits & property value enhancement</p>
+                        </div>
+                        <div class="market-card" data-delay="200">
+                            <div class="market-icon">🚛</div>
+                            <h3 class="market-title">Fleet Operations</h3>
+                            <p class="market-desc">Reduce downtime & operational costs</p>
+                        </div>
+                        <div class="market-card" data-delay="400">
+                            <div class="market-icon">🏛️</div>
+                            <h3 class="market-title">Public Infrastructure</h3>
+                            <p class="market-desc">Municipal revenue & sustainability goals</p>
+                        </div>
+                        <div class="market-card" data-delay="600">
+                            <div class="market-icon">🏨</div>
+                            <h3 class="market-title">Hospitality</h3>
+                            <p class="market-desc">Premium guest amenities & attraction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: Ecosystem -->
+            <div class="slide" data-slide="7">
+                <div class="slide__content">
+                    <h2 class="slide__title">Complete Solution Platform</h2>
+                    <div class="ecosystem">
+                        <div class="ecosystem-item" data-delay="0">
+                            <div class="ecosystem-visual">
+                                <div class="hardware-icon">🔌</div>
+                            </div>
+                            <h3>Chargnex Prime Hardware</h3>
+                            <p>Smart charging infrastructure</p>
+                        </div>
+                        <div class="ecosystem-connector" data-delay="200"></div>
+                        <div class="ecosystem-item" data-delay="400">
+                            <div class="ecosystem-visual">
+                                <div class="dashboard-icon">📊</div>
+                            </div>
+                            <h3>Chargnex Core CSMS</h3>
+                            <p>Central management system</p>
+                        </div>
+                        <div class="ecosystem-connector" data-delay="600"></div>
+                        <div class="ecosystem-item" data-delay="800">
+                            <div class="ecosystem-visual">
+                                <div class="mobile-icon">📱</div>
+                            </div>
+                            <h3>Mobile App</h3>
+                            <p>User-friendly interface</p>
+                        </div>
+                        <div class="ecosystem-connector" data-delay="1000"></div>
+                        <div class="ecosystem-item" data-delay="1200">
+                            <div class="ecosystem-visual">
+                                <div class="analytics-icon">📈</div>
+                            </div>
+                            <h3>Analytics & Reporting</h3>
+                            <p>Data-driven insights</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: Contact -->
+            <div class="slide" data-slide="8">
+                <div class="slide__content slide__content--center">
+                    <h2 class="slide__title">Ready to Charge Ahead?</h2>
+                    <div class="cta-section">
+                        <div class="cta-buttons">
+                            <button class="btn btn--primary btn--lg cta-btn" data-delay="0">
+                                Book a Free Consultation
+                            </button>
+                            <button class="btn btn--outline btn--lg cta-btn" data-delay="200">
+                                Calculate Your ROI
+                            </button>
+                            <button class="btn btn--outline btn--lg cta-btn" data-delay="400">
+                                Schedule a Demo
+                            </button>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <strong>Website:</strong> www.chargnex.com
+                            </div>
+                            <div class="contact-item">
+                                <strong>Email:</strong> info@chargnex.com
+                            </div>
+                            <div class="contact-item">
+                                <strong>Locations:</strong> Canada | USA
+                            </div>
+                        </div>
+                        <button class="btn btn--primary btn--lg final-cta pulse">
+                            Get Started Today
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide Indicators -->
+        <div class="slide-indicators">
+            <button class="indicator indicator--active" data-slide="1"></button>
+            <button class="indicator" data-slide="2"></button>
+            <button class="indicator" data-slide="3"></button>
+            <button class="indicator" data-slide="4"></button>
+            <button class="indicator" data-slide="5"></button>
+            <button class="indicator" data-slide="6"></button>
+            <button class="indicator" data-slide="7"></button>
+            <button class="indicator" data-slide="8"></button>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill" style="width: 12.5%"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
